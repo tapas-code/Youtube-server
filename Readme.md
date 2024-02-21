@@ -21,14 +21,14 @@ You can view the ER diagram for the database schema used in this project [here](
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/youtube-clone-backend.git
+git clone https://github.com/tapas-code/Youtube-server.git
 
 ```
 2. Install Dependencies:
 
 ```bash
-cd youtube-clone-backend
-npm install
+cd Youtube-server
+npm i
 ```
 3. Set up environment variables:
 
