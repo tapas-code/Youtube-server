@@ -32,7 +32,7 @@ npm i
 ```
 3. Set up environment variables:
 
-Copy .env.example to .env and fill in the necessary configuration details such as database connection information and API keys.
+- Copy .env.example to .env and fill in the necessary configuration details such as database connection information and API keys.
 
 4. Run the application: 
 
