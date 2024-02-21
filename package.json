@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/server.js"
   },
   "keywords": [
     "backend",
@@ -18,5 +18,10 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.3"
   }
 }
